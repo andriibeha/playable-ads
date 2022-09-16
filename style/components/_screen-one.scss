@@ -1,0 +1,56 @@
+.screen-one{ 
+    
+    &__bg { 
+        position: relative;
+        width: 1080px;
+        height: 1920px;
+
+        background-image: url("../../1080x1920/bg1.jpg");
+    };
+
+    &__outfit {
+        position: absolute;
+        width: 1080px;
+        height: 1920px;
+
+        background-image: url("../../1080x1920/outfitDefault.png");
+
+        top: 10px;
+    };
+
+    &__bubble { 
+        position: absolute;
+        width: 1080px;
+        height: 1920px;
+    
+        background-image: url("../../1080x1920/bubble1.png");
+
+        top: 0;
+    };
+
+    &__cursor{ 
+        position: absolute;
+        width: 400px;
+        height: 400px;
+    
+        background-image: url("../../1080x1920/cursor1.png");
+        background-repeat: no-repeat;
+        
+        top: 80%;
+        left: 60%;
+    }
+
+    &__button { 
+        position: absolute;
+        width: 1080px;
+        height: 1920px; 
+
+        background-image: url("../../1080x1920/start.png");
+
+        top: 0;
+
+        background-color: inherit;
+        border: none;
+        cursor: pointer;
+    }
+}

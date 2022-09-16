@@ -1,0 +1,159 @@
+.screen-two { 
+    display: none;
+
+    &__shadow {
+        position: absolute;
+        width: 1080px;
+        height: 1920px;
+    
+        top: 10px;
+        
+        
+        background-image: url("../../1080x1920/shadow.png");
+    };
+
+    &__list {
+        position: absolute;
+
+        top: 400px;
+        right: 1800px
+    };
+
+    &__button1 { 
+        position: absolute;
+        width: 240px;
+        height: 240px;
+    
+        top: 0;
+    
+        background-image: url("../../1080x1920/button1grey.png");
+        background-repeat: no-repeat;
+
+        background-color: inherit;
+        border: 10px solid rgb(116, 114, 114);
+        border-radius: 40px;
+        cursor: pointer;
+
+        scale: 1;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    };
+
+    &__button2 {
+        position: absolute;
+        width: 240px;
+        height: 240px;
+
+        top: 250px;
+
+        background-image: url("../../1080x1920/button2grey.png");
+        background-repeat: no-repeat;
+
+        background-color: inherit;
+        border: 10px solid rgb(116, 114, 114);
+        border-radius: 40px;
+        cursor: pointer;
+    };
+
+    
+    &__button3 {
+        position: absolute;
+        width: 240px;
+        height: 240px;
+
+        top: 500px;
+
+        background-image: url("../../1080x1920/button3grey.png");
+        background-repeat: no-repeat;
+
+        background-color: inherit;
+        border: 10px solid rgb(116, 114, 114);
+        border-radius: 40px;
+        cursor: pointer;
+    };
+
+    &__button4 {
+        position: absolute;
+        width: 240px;
+        height: 240px;
+
+        top: 750px;
+
+        background-image: url("../../1080x1920/button4grey.png");
+        background-repeat: no-repeat;
+
+        background-color: inherit;
+        border: 10px solid rgb(116, 114, 114);
+        border-radius: 40px;
+        cursor: pointer;
+    };
+
+    &__button5 {
+        position: absolute;
+        width: 240px;
+        height: 240px;
+
+        top: 1000px;
+
+        background-image: url("../../1080x1920/button5grey.png");
+        background-repeat: no-repeat;
+
+        background-color: inherit;
+        border: 10px solid rgb(116, 114, 114);
+        border-radius: 40px;
+        cursor: pointer;
+    };
+
+    &__button--active { 
+        border-color: green;
+    }
+
+    &__cursor {
+        position: absolute;
+        width: 350px;
+        height: 350px;
+
+        background-image: url("../../1080x1920/cursor1.png");
+        background-repeat: no-repeat;
+
+        top: 1150px;
+        left: 0;
+    };
+
+    &__okBtn { 
+        width: 300px;
+        height: 300px;
+
+        border: 0px solid ;
+        border-radius: 50%;
+        background-color: grey;
+
+        font-size: 90px;
+        color: white;
+
+        position: absolute;
+        top: 1300px;
+        right: 2100px;
+
+        cursor: pointer;
+    };
+
+    &__okBtn--active { 
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+        background-color: gold;
+    }
+
+    .emoji { 
+        display: none;
+        position: absolute;
+        width: 1080px;
+        height: 1920px;
+
+        background-image: url("../../1080x1920/emoji1.png");
+
+        top: 0
+    }
+           
+};

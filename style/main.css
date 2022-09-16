@@ -1,0 +1,237 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.screen-one__bg {
+  position: relative;
+  width: 1080px;
+  height: 1920px;
+  background-image: url("../../1080x1920/bg1.jpg");
+}
+
+.screen-one__outfit {
+  position: absolute;
+  width: 1080px;
+  height: 1920px;
+  background-image: url("../../1080x1920/outfitDefault.png");
+  top: 10px;
+}
+
+.screen-one__bubble {
+  position: absolute;
+  width: 1080px;
+  height: 1920px;
+  background-image: url("../../1080x1920/bubble1.png");
+  top: 0;
+}
+
+.screen-one__cursor {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background-image: url("../../1080x1920/cursor1.png");
+  background-repeat: no-repeat;
+  top: 80%;
+  left: 60%;
+}
+
+.screen-one__button {
+  position: absolute;
+  width: 1080px;
+  height: 1920px;
+  background-image: url("../../1080x1920/start.png");
+  top: 0;
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.screen-two {
+  display: none;
+}
+
+.screen-two__shadow {
+  position: absolute;
+  width: 1080px;
+  height: 1920px;
+  top: 10px;
+  background-image: url("../../1080x1920/shadow.png");
+}
+
+.screen-two__list {
+  position: absolute;
+  top: 400px;
+  right: 1800px;
+}
+
+.screen-two__button1 {
+  position: absolute;
+  width: 240px;
+  height: 240px;
+  top: 0;
+  background-image: url("../../1080x1920/button1grey.png");
+  background-repeat: no-repeat;
+  background-color: inherit;
+  border: 10px solid #747272;
+  border-radius: 40px;
+  cursor: pointer;
+  scale: 1;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.screen-two__button2 {
+  position: absolute;
+  width: 240px;
+  height: 240px;
+  top: 250px;
+  background-image: url("../../1080x1920/button2grey.png");
+  background-repeat: no-repeat;
+  background-color: inherit;
+  border: 10px solid #747272;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.screen-two__button3 {
+  position: absolute;
+  width: 240px;
+  height: 240px;
+  top: 500px;
+  background-image: url("../../1080x1920/button3grey.png");
+  background-repeat: no-repeat;
+  background-color: inherit;
+  border: 10px solid #747272;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.screen-two__button4 {
+  position: absolute;
+  width: 240px;
+  height: 240px;
+  top: 750px;
+  background-image: url("../../1080x1920/button4grey.png");
+  background-repeat: no-repeat;
+  background-color: inherit;
+  border: 10px solid #747272;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.screen-two__button5 {
+  position: absolute;
+  width: 240px;
+  height: 240px;
+  top: 1000px;
+  background-image: url("../../1080x1920/button5grey.png");
+  background-repeat: no-repeat;
+  background-color: inherit;
+  border: 10px solid #747272;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.screen-two__button--active {
+  border-color: green;
+}
+
+.screen-two__cursor {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  background-image: url("../../1080x1920/cursor1.png");
+  background-repeat: no-repeat;
+  top: 1150px;
+  left: 0;
+}
+
+.screen-two__okBtn {
+  width: 300px;
+  height: 300px;
+  border: 0px solid;
+  border-radius: 50%;
+  background-color: grey;
+  font-size: 90px;
+  color: white;
+  position: absolute;
+  top: 1300px;
+  right: 2100px;
+  cursor: pointer;
+}
+
+.screen-two__okBtn--active {
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: gold;
+}
+
+.screen-two .emoji {
+  display: none;
+  position: absolute;
+  width: 1080px;
+  height: 1920px;
+  background-image: url("../../1080x1920/emoji1.png");
+  top: 0;
+}
+
+.screen-three {
+  display: none;
+}
+
+.screen-three__bg {
+  position: absolute;
+  width: 1080px;
+  height: 1920px;
+  top: 0;
+  background-image: url("../../1080x1920/bg2-1.jpg");
+}
+
+.screen-three__bubble {
+  position: absolute;
+  width: 1080px;
+  height: 1920px;
+  background-image: url("../../1080x1920/bubble2.png");
+  top: 0;
+}
+
+.screen-three__fail {
+  position: absolute;
+  width: 400px;
+  text-align: center;
+  padding: 15px;
+  rotate: -45deg;
+  top: 960px;
+  right: 1850px;
+  background-color: red;
+  border: 15px solid;
+  color: white;
+  font-size: 120px;
+  font-weight: 900;
+}
+
+.screen-three__tryAgain {
+  position: absolute;
+  width: 1080px;
+  height: 1920px;
+  background-image: url("../../1080x1920/tryAgain.png");
+  top: 0;
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */

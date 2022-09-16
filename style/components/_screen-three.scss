@@ -1,0 +1,57 @@
+.screen-three { 
+    display: none;
+
+    &__bg {
+        position: absolute;
+        width: 1080px;
+        height: 1920px;
+
+        top: 0;
+
+        background-image: url("../../1080x1920/bg2-1.jpg");
+    };
+
+    &__bubble { 
+        position: absolute;
+        width: 1080px;
+        height: 1920px;
+    
+        background-image: url("../../1080x1920/bubble2.png");
+    
+        top: 0;
+    };
+
+    &__fail { 
+        position: absolute;
+        width: 400px;
+
+        text-align: center;
+        padding: 15px;
+        rotate: -45deg;
+
+        top: 960px;
+        right: 1850px;
+
+        background-color: red;
+
+        border: 15px solid;
+
+        color: white;
+        font-size: 120px;
+        font-weight: 900;
+    };
+    
+    &__tryAgain {
+        position: absolute;
+        width: 1080px;
+        height: 1920px;
+    
+        background-image: url("../../1080x1920/tryAgain.png");
+    
+        top: 0;
+    
+        background-color: inherit;
+        border: none;
+        cursor: pointer;
+     };
+}
