@@ -20,7 +20,7 @@
   position: relative;
   width: 1080px;
   height: 1920px;
-  background-image: url("./1080x1920/bg1.jpg");
+  background-image: url("../1080x1920/bg1.jpg");
 }
 
 .screen-one__outfit {
@@ -140,7 +140,7 @@
   width: 240px;
   height: 240px;
   top: 0;
-  background-image: url("./1080x1920/button1grey.png");
+  background-image: url("../1080x1920/button1grey.png");
   background-repeat: no-repeat;
   background-color: inherit;
   border: 10px solid #747272;
@@ -182,7 +182,7 @@
   width: 240px;
   height: 240px;
   top: 250px;
-  background-image: url("./1080x1920/button2grey.png");
+  background-image: url("../1080x1920/button2grey.png");
   background-repeat: no-repeat;
   background-color: inherit;
   border: 10px solid #747272;
@@ -224,7 +224,7 @@
   width: 240px;
   height: 240px;
   top: 500px;
-  background-image: url("./1080x1920/button3grey.png");
+  background-image: url("../1080x1920/button3grey.png");
   background-repeat: no-repeat;
   background-color: inherit;
   border: 10px solid #747272;
@@ -266,7 +266,7 @@
   width: 240px;
   height: 240px;
   top: 750px;
-  background-image: url("./1080x1920/button4grey.png");
+  background-image: url("../1080x1920/button4grey.png");
   background-repeat: no-repeat;
   background-color: inherit;
   border: 10px solid #747272;
@@ -308,7 +308,7 @@
   width: 240px;
   height: 240px;
   top: 1000px;
-  background-image: url("./1080x1920/button5grey.png");
+  background-image: url("../1080x1920/button5grey.png");
   background-repeat: no-repeat;
   background-color: inherit;
   border: 10px solid #747272;
@@ -468,7 +468,7 @@
   width: 1080px;
   height: 1920px;
   top: 0;
-  background-image: url("../../1080x1920/bg2-1.jpg");
+  background-image: url("../1080x1920/bg2-1.jpg");
 }
 
 .screen-three__bubble {
