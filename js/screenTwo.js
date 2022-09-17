@@ -26,7 +26,7 @@ export function dressListHandler(e) {
 
     e.target.classList.add("screen-two__button--active");
 
-    emoji.src = `../1080x1920/emoji${dressId}.png`;
+    emoji.src = `./1080x1920/emoji${dressId}.png`;
     emoji.style.display = "block";
 
     setTimeout(() => {
