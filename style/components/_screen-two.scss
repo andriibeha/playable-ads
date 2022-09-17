@@ -3,21 +3,19 @@
 
     &__shadow {
         position: absolute;
-        width: 1080px;
-        height: 1920px;
+        
     
         top: 10px;
-        
-        
-        background-image: url("../../1080x1920/shadow.png");
     };
 
     &__list {
         position: absolute;
 
         top: 400px;
-        right: 1800px
+        right: 320px
     };
+
+   
 
     &__button1 { 
         position: absolute;
@@ -25,7 +23,7 @@
         height: 240px;
     
         top: 0;
-    
+
         background-image: url("../../1080x1920/button1grey.png");
         background-repeat: no-repeat;
 
@@ -34,11 +32,27 @@
         border-radius: 40px;
         cursor: pointer;
 
-        scale: 1;
-        transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        z-index: 10;
+
+
+        animation-name: button1;
+        animation-duration: 250ms;
+        animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        animation-iteration-count: 1;
+        animation-direction: alternate
     };
 
+    @keyframes button1 {
+        0% {
+            scale: 0;
+        }
+
+        100% {
+            scale: 1;
+        }
+    };
+    
+        
     &__button2 {
         position: absolute;
         width: 240px;
@@ -53,8 +67,26 @@
         border: 10px solid rgb(116, 114, 114);
         border-radius: 40px;
         cursor: pointer;
+
+        z-index: 10;
+
+        animation-name: button2;
+        animation-duration: 500ms;
+        animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        animation-iteration-count: 1;
+        animation-direction: alternate;
     };
 
+    @keyframes button2 {
+        0% {
+            scale: 0;
+        }
+
+        100% {
+            scale: 1;
+        }
+    };
+    
     
     &__button3 {
         position: absolute;
@@ -70,7 +102,27 @@
         border: 10px solid rgb(116, 114, 114);
         border-radius: 40px;
         cursor: pointer;
+
+        z-index: 10;
+
+        animation-name: button3;
+        animation-duration: 750ms;
+        animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        animation-iteration-count: 1;
+        animation-direction: alternate;
     };
+
+    @keyframes button3 {
+        0% {
+            scale: 0;
+        }
+
+        100% {
+            scale: 1;
+        }
+    };
+    
+        
 
     &__button4 {
         position: absolute;
@@ -86,7 +138,26 @@
         border: 10px solid rgb(116, 114, 114);
         border-radius: 40px;
         cursor: pointer;
+
+        z-index: 10;
+
+        animation-name: button4;
+        animation-duration: 1000ms;
+        animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        animation-iteration-count: 1;
+        animation-direction: alternate;
     };
+
+    @keyframes button4 {
+        0% {
+            scale: 0;
+        }
+
+        100% {
+            scale: 1;
+        }
+    };
+    
 
     &__button5 {
         position: absolute;
@@ -102,7 +173,27 @@
         border: 10px solid rgb(116, 114, 114);
         border-radius: 40px;
         cursor: pointer;
+
+        z-index: 10;
+
+        animation-name: button5;
+        animation-duration: 1250ms;
+        animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        animation-iteration-count: 1;
+        animation-direction: alternate;
     };
+
+    @keyframes button5 {
+        0% {
+            scale: 0;
+        }
+
+        100% {
+            scale: 1;
+        }
+    };
+    
+        
 
     &__button--active { 
         border-color: green;
@@ -110,50 +201,93 @@
 
     &__cursor {
         position: absolute;
-        width: 350px;
-        height: 350px;
-
-        background-image: url("../../1080x1920/cursor1.png");
-        background-repeat: no-repeat;
 
         top: 1150px;
         left: 0;
+
+        z-index: 12;
+
+        animation-name: cursor-on;
+        animation-duration: 1500ms;
+        animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        animation-iteration-count: infinite;
+        animation-direction: alternate
+    };
+
+    @keyframes cursor-on {
+        0% {
+            left: 60%;
+        }
+
+        100% {
+            top: 70%;
+            left: 40%;
+        }
     };
 
     &__okBtn { 
+        position: absolute;
         width: 300px;
         height: 300px;
 
         border: 0px solid ;
         border-radius: 50%;
         background-color: grey;
+        box-shadow: 0px 0px 45px 0px rgba(0, 0, 0, 0.75);
 
         font-size: 90px;
         color: white;
 
-        position: absolute;
         top: 1300px;
-        right: 2100px;
+        right: 600px;
 
         cursor: pointer;
+
+        animation-name: button-ok;
+        animation-duration: 500ms;
+        animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
     };
 
-    &__okBtn--active { 
-        transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @keyframes button-ok {
+        0% {
+            scale: 1;
+        }
 
+        100% {
+            scale: 1.2;
+        }
+    };
+    
+        
+    &__okBtn--active { 
         background-color: gold;
+        color: black;
     }
+
 
     .emoji { 
         display: none;
         position: absolute;
-        width: 1080px;
-        height: 1920px;
 
-        background-image: url("../../1080x1920/emoji1.png");
+        bottom: 0;
 
-        top: 0
+        animation-name: emodji-on;
+        animation-duration: 1000ms;
+        animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        animation-iteration-count: 1;
+        animation-direction: alternate;
     }
+
+    @keyframes emodji-on {
+        0% {
+            bottom: 0;
+        }
+
+        100% {
+            bottom: 250px
+        }
+    };
            
 };

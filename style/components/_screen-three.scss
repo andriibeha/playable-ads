@@ -13,24 +13,39 @@
 
     &__bubble { 
         position: absolute;
-        width: 1080px;
-        height: 1920px;
-    
-        background-image: url("../../1080x1920/bubble2.png");
     
         top: 0;
+
+        animation-name: bubble2;
+        animation-duration: 250ms;
+        animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        animation-iteration-count: 1;
+        animation-direction: alternate;
     };
 
+    @keyframes bubble2 {
+        0% {
+            scale: 0;
+        }
+
+        100% {
+            scale: 1;
+        }
+    };
+    
+        
+
     &__fail { 
+        display: none;
         position: absolute;
         width: 400px;
 
         text-align: center;
         padding: 15px;
-        rotate: -45deg;
+        rotate: -40deg;
 
-        top: 960px;
-        right: 1850px;
+        top: 800px;
+        right: 30%;
 
         background-color: red;
 
@@ -39,14 +54,29 @@
         color: white;
         font-size: 120px;
         font-weight: 900;
+
+        animation-name: fail;
+        animation-duration: 750ms;
+        animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        animation-iteration-count: 1;
+        animation-direction: alternate;
     };
+
+    @keyframes fail {
+        0% {
+            scale: 2;
+        }
+
+        100% {
+            scale: 1;
+        }
+    };  
     
     &__tryAgain {
-        position: absolute;
         width: 1080px;
         height: 1920px;
-    
-        background-image: url("../../1080x1920/tryAgain.png");
+        
+        position: absolute;
     
         top: 0;
     
@@ -54,4 +84,47 @@
         border: none;
         cursor: pointer;
      };
+
+    
+
+    &__button { 
+        display: none;
+        position: absolute;
+        width: 900px;
+        height: 250px;
+    
+        background: linear-gradient(0deg, rgba(50, 205, 50, 1) 50%, rgba(127, 255, 0, 1) 100%);
+        box-shadow: 0px 0px 45px 0px rgba(0, 0, 0, 0.75);
+    
+        top: 1450px;
+        left: 100px;
+    
+        color: white;
+        font-size: 120px;
+        font-weight: 900;
+    
+        background-color: inherit;
+        border-radius: 140px;
+        border: none;
+        cursor: pointer;
+
+        animation-name: button-tryAgain;
+        animation-duration: 800ms;
+        animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    };
+
+    @keyframes button-tryAgain {
+        0% {
+            rotate: 5deg;
+        }
+
+        100% {
+            rotate: -5deg
+        }
+    };
+    
+        
+         
 }
