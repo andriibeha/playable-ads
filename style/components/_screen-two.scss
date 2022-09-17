@@ -15,8 +15,6 @@
         right: 320px
     };
 
-   
-
     &__button1 { 
         position: absolute;
         width: 240px;
@@ -24,7 +22,7 @@
     
         top: 0;
 
-        background-image: url("../1080x1920/button1grey.png");
+        background-image: url("../img/button1grey.png");
         background-repeat: no-repeat;
 
         background-color: inherit;
@@ -33,7 +31,6 @@
         cursor: pointer;
 
         z-index: 10;
-
 
         animation-name: button1;
         animation-duration: 250ms;
@@ -52,7 +49,6 @@
         }
     };
     
-        
     &__button2 {
         position: absolute;
         width: 240px;
@@ -60,7 +56,7 @@
 
         top: 250px;
 
-        background-image: url("../1080x1920/button2grey.png");
+        background-image: url("../img/button2grey.png");
         background-repeat: no-repeat;
 
         background-color: inherit;
@@ -87,7 +83,6 @@
         }
     };
     
-    
     &__button3 {
         position: absolute;
         width: 240px;
@@ -95,7 +90,7 @@
 
         top: 500px;
 
-        background-image: url("../1080x1920/button3grey.png");
+        background-image: url("../img/button3grey.png");
         background-repeat: no-repeat;
 
         background-color: inherit;
@@ -122,8 +117,6 @@
         }
     };
     
-        
-
     &__button4 {
         position: absolute;
         width: 240px;
@@ -131,7 +124,7 @@
 
         top: 750px;
 
-        background-image: url("../1080x1920/button4grey.png");
+        background-image: url("../img/button4grey.png");
         background-repeat: no-repeat;
 
         background-color: inherit;
@@ -157,7 +150,6 @@
             scale: 1;
         }
     };
-    
 
     &__button5 {
         position: absolute;
@@ -166,7 +158,7 @@
 
         top: 1000px;
 
-        background-image: url("../1080x1920/button5grey.png");
+        background-image: url("../img/button5grey.png");
         background-repeat: no-repeat;
 
         background-color: inherit;
@@ -192,8 +184,6 @@
             scale: 1;
         }
     };
-    
-        
 
     &__button--active { 
         border-color: green;
@@ -264,8 +254,7 @@
     &__okBtn--active { 
         background-color: gold;
         color: black;
-    }
-
+    };
 
     .emoji { 
         display: none;
@@ -278,7 +267,7 @@
         animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         animation-iteration-count: 1;
         animation-direction: alternate;
-    }
+    };
 
     @keyframes emodji-on {
         0% {

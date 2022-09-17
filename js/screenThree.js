@@ -19,9 +19,9 @@ export function okBtnHandler() {
     screenTwo.style.display = "none";
 
     if (dressId !== null) {
-        secondBg.style.backgroundImage = `url(./1080x1920/bg2-${dressId}.jpg)`;
+        secondBg.style.backgroundImage = `url(./img/bg2-${dressId}.jpg)`;
     } else { 
-        secondBg.style.backgroundImage = `url(./1080x1920/bg2-1.jpg)`;
+        secondBg.style.backgroundImage = `url(./img/bg2-1.jpg)`;
     };
 
     musicPlay(3)

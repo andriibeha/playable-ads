@@ -8,7 +8,7 @@
 
         top: 0;
 
-        background-image: url("../1080x1920/bg2-1.jpg");
+        background-image: url("../img/bg2-1.jpg");
     };
 
     &__bubble { 
@@ -33,8 +33,6 @@
         }
     };
     
-        
-
     &__fail { 
         display: none;
         position: absolute;
@@ -85,8 +83,6 @@
         cursor: pointer;
      };
 
-    
-
     &__button { 
         display: none;
         position: absolute;
@@ -125,6 +121,4 @@
         }
     };
     
-        
-         
 }

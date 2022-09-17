@@ -16,7 +16,7 @@ export function dressListHandler(e) {
     musicPlay(2)
 
     dressId = e.target.id;
-    outfit.src = `./1080x1920/dress${dressId}.webp`;
+    outfit.src = `./img/dress${dressId}.webp`;
     
     let currentActiveBtn = document.querySelector('.screen-two__button--active');
     
@@ -26,7 +26,7 @@ export function dressListHandler(e) {
 
     e.target.classList.add("screen-two__button--active");
 
-    emoji.src = `./1080x1920/emoji${dressId}.png`;
+    emoji.src = `./img/emoji${dressId}.png`;
     emoji.style.display = "block";
 
     setTimeout(() => {
