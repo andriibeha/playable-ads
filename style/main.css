@@ -47,6 +47,7 @@
           animation-iteration-count: infinite;
   -webkit-animation-direction: alternate;
           animation-direction: alternate;
+  z-index: 12;
 }
 
 @-webkit-keyframes cursor-on {
@@ -120,6 +121,20 @@
   }
 }
 
+.screen-one__button--click {
+  position: absolute;
+  width: 1000px;
+  height: 300px;
+  bottom: 24%;
+  right: 4%;
+  display: block;
+  background-color: inherit;
+  border-radius: 140px;
+  border: none;
+  cursor: pointer;
+  z-index: 100;
+}
+
 .screen-two {
   display: none;
 }
@@ -177,6 +192,17 @@
   }
 }
 
+.screen-two__button1--click {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 0;
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+  z-index: 100;
+}
+
 .screen-two__button2 {
   position: absolute;
   width: 240px;
@@ -217,6 +243,17 @@
   100% {
     scale: 1;
   }
+}
+
+.screen-two__button2--click {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 250px;
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+  z-index: 100;
 }
 
 .screen-two__button3 {
@@ -261,6 +298,17 @@
   }
 }
 
+.screen-two__button3--click {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 500px;
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+  z-index: 100;
+}
+
 .screen-two__button4 {
   position: absolute;
   width: 240px;
@@ -303,6 +351,17 @@
   }
 }
 
+.screen-two__button4--click {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 750px;
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+  z-index: 100;
+}
+
 .screen-two__button5 {
   position: absolute;
   width: 240px;
@@ -343,6 +402,17 @@
   100% {
     scale: 1;
   }
+}
+
+.screen-two__button5--click {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 1000px;
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+  z-index: 100;
 }
 
 .screen-two__button--active {

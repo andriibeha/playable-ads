@@ -48,6 +48,20 @@
             scale: 1;
         }
     };
+
+    &__button1--click {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+
+        top: 0;
+
+        background-color: inherit;
+        border: none;
+        cursor: pointer;
+
+        z-index: 100;
+    };
     
     &__button2 {
         position: absolute;
@@ -83,6 +97,21 @@
         }
     };
     
+    &__button2--click {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+
+        top: 250px;
+
+        background-color: inherit;
+        border: none;
+
+        cursor: pointer;
+
+        z-index: 100;
+    };
+
     &__button3 {
         position: absolute;
         width: 240px;
@@ -115,6 +144,21 @@
         100% {
             scale: 1;
         }
+    };
+
+    &__button3--click {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+
+        top: 500px;
+
+        background-color: inherit;
+        border: none;
+
+        cursor: pointer;
+
+        z-index: 100;
     };
     
     &__button4 {
@@ -151,6 +195,21 @@
         }
     };
 
+    &__button4--click {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+
+        top: 750px;
+
+        background-color: inherit;
+        border: none;
+
+        cursor: pointer;
+
+        z-index: 100;
+    };
+
     &__button5 {
         position: absolute;
         width: 240px;
@@ -183,6 +242,21 @@
         100% {
             scale: 1;
         }
+    };
+
+    &__button5--click {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+
+        top: 1000px;
+
+        background-color: inherit;
+        border: none;
+
+        cursor: pointer;
+
+        z-index: 100;
     };
 
     &__button--active { 

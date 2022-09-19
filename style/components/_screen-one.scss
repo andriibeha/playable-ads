@@ -31,7 +31,9 @@
         animation-duration: 1000ms;
         animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         animation-iteration-count: infinite;
-        animation-direction: alternate
+        animation-direction: alternate;
+
+        z-index: 12;
     };
 
     @keyframes cursor-on{
@@ -85,5 +87,21 @@
         }
     };
     
-        
+    &__button--click {
+        position: absolute;
+        width: 1000px;
+        height: 300px;
+
+        bottom: 24%;
+        right: 4%;
+        display: block;
+
+
+        background-color: inherit;
+        border-radius: 140px;
+        border: none;
+        cursor: pointer;
+
+        z-index: 100;
+    };
 }
